@@ -6,7 +6,7 @@
   "description": "React specific wrapper for component-library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/ionic.git"
+    "url": "https://github.com/musangowope/experimentations-repo/tree/main/mono-repo-lib/packages/react-library-updated"
   },
   "scripts": {
     "build": "npm run clean && npm run compile",
