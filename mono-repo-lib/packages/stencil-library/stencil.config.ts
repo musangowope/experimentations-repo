@@ -20,11 +20,11 @@ export const config: Config = {
       serviceWorker: null, // disable service workers
     },
     vueOutputTarget({
-      componentCorePackage: 'stencil-library', // i.e.: stencil-library
+      componentCorePackage: '@musangowope/stencil-library', // i.e.: stencil-library
       proxiesFile: '../vue-library/src/components.ts',
     }),
     reactOutputTarget({
-      componentCorePackage: 'stencil-library',
+      componentCorePackage: '@musangowope/stencil-library',
       proxiesFile: '../react-library/src/components/stencil-generated/index.ts',
       includeDefineCustomElements: true,
     }),
