@@ -25,7 +25,7 @@ export const config: Config = {
     }),
     reactOutputTarget({
       componentCorePackage: 'stencil-library',
-      proxiesFile: '../react-library-updated/src/components/stencil-generated/index.ts',
+      proxiesFile: '../react-library/src/components/stencil-generated/index.ts',
       includeDefineCustomElements: true,
     }),
   ],
