@@ -30,9 +30,10 @@
     "vue": "^3.2.37"
   },
   "dependencies": {
-    "stencil-library": "^1.0.0"
+    "@musangowope/stencil-library": "^2.0.0"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "9bd8f92c03f06e38354950310e7ba31406e45e05"
 }
