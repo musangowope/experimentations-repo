@@ -1,6 +1,6 @@
 {
   "name": "@musangowope/stencil-library",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",

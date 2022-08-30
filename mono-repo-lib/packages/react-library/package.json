@@ -1,7 +1,7 @@
 {
   "name": "@musangowope/component-library-react",
   "sideEffects": false,
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "React specific wrapper for component-library",
   "repository": {
     "type": "git",
@@ -33,7 +33,7 @@
     "typescript": "^3.3.4000"
   },
   "dependencies": {
-    "@musangowope/stencil-library": "^4.0.0"
+    "@musangowope/stencil-library": "^5.0.0"
   },
   "peerDependencies": {
     "react": "^17.0.2",
