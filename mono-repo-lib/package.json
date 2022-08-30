@@ -11,5 +11,8 @@
     "@types/node": "^18.7.13",
     "lerna": "^5.4.3",
     "typescript": "^4.8.2"
+  },
+  "scripts": {
+    "lerna-bootstrap": "lerna link && lerna exec -- npm install"
   }
 }
