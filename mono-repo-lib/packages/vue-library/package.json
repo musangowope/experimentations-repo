@@ -6,7 +6,7 @@
   "homepage": "https://github.com/musangowope/experimentations-repo#readme",
   "license": "ISC",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "types": "lib/index.d.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/musangowope/experimentations-repo/tree/main/mono-repo-lib/packages/vue-library"
+    "url": "git+https://github.com/musangowope/experimentations-repo.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
@@ -27,15 +27,10 @@
     "url": "https://github.com/musangowope/experimentations-repo/issues"
   },
   "devDependencies": {
-    "vue": "^3.2.37"
+    "@musangowope/stencil-library": "*",
+    "vue": "^3.2.38"
   },
-  "dependencies": {
-    "@musangowope/stencil-library": "^6.0.2"
-  },
-  "private": false,
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
-  "gitHead": "e70ea81087f81861de29fbf32bc06e32ce68e106"
+    "access": "public"
+  }
 }

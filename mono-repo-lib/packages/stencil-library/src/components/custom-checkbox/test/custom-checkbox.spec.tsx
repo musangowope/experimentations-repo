@@ -1,18 +1,18 @@
 import { newSpecPage } from '@stencil/core/testing';
-import { Component03 } from '../component-03';
+import { CustomCheckbox } from '../custom-checkbox';
 
-describe('component-03', () => {
+describe('custom-checkbox', () => {
   it('renders', async () => {
     const page = await newSpecPage({
-      components: [Component03],
-      html: `<component-03></component-03>`,
+      components: [CustomCheckbox],
+      html: `<custom-checkbox></custom-checkbox>`,
     });
     expect(page.root).toEqualHtml(`
-      <component-03>
+      <custom-checkbox>
         <mock:shadow-root>
           <slot></slot>
         </mock:shadow-root>
-      </component-03>
+      </custom-checkbox>
     `);
   });
 });

@@ -1,11 +1,11 @@
 import { newE2EPage } from '@stencil/core/testing';
 
-describe('component-02', () => {
+describe('custom-checkbox', () => {
   it('renders', async () => {
     const page = await newE2EPage();
-    await page.setContent('<component-02></component-02>');
+    await page.setContent('<custom-checkbox></custom-checkbox>');
 
-    const element = await page.find('component-02');
+    const element = await page.find('custom-checkbox');
     expect(element).toHaveClass('hydrated');
   });
 });

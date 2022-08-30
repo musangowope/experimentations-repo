@@ -6,108 +6,32 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface Component01 {
-    }
-    interface Component02 {
-    }
-    interface Component03 {
-    }
-    interface MusangoComponent {
-    }
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
+    interface CustomCheckbox {
     }
 }
 declare global {
-    interface HTMLComponent01Element extends Components.Component01, HTMLStencilElement {
+    interface HTMLCustomCheckboxElement extends Components.CustomCheckbox, HTMLStencilElement {
     }
-    var HTMLComponent01Element: {
-        prototype: HTMLComponent01Element;
-        new (): HTMLComponent01Element;
-    };
-    interface HTMLComponent02Element extends Components.Component02, HTMLStencilElement {
-    }
-    var HTMLComponent02Element: {
-        prototype: HTMLComponent02Element;
-        new (): HTMLComponent02Element;
-    };
-    interface HTMLComponent03Element extends Components.Component03, HTMLStencilElement {
-    }
-    var HTMLComponent03Element: {
-        prototype: HTMLComponent03Element;
-        new (): HTMLComponent03Element;
-    };
-    interface HTMLMusangoComponentElement extends Components.MusangoComponent, HTMLStencilElement {
-    }
-    var HTMLMusangoComponentElement: {
-        prototype: HTMLMusangoComponentElement;
-        new (): HTMLMusangoComponentElement;
-    };
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
-    }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
+    var HTMLCustomCheckboxElement: {
+        prototype: HTMLCustomCheckboxElement;
+        new (): HTMLCustomCheckboxElement;
     };
     interface HTMLElementTagNameMap {
-        "component-01": HTMLComponent01Element;
-        "component-02": HTMLComponent02Element;
-        "component-03": HTMLComponent03Element;
-        "musango-component": HTMLMusangoComponentElement;
-        "my-component": HTMLMyComponentElement;
+        "custom-checkbox": HTMLCustomCheckboxElement;
     }
 }
 declare namespace LocalJSX {
-    interface Component01 {
-    }
-    interface Component02 {
-    }
-    interface Component03 {
-    }
-    interface MusangoComponent {
-    }
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
+    interface CustomCheckbox {
     }
     interface IntrinsicElements {
-        "component-01": Component01;
-        "component-02": Component02;
-        "component-03": Component03;
-        "musango-component": MusangoComponent;
-        "my-component": MyComponent;
+        "custom-checkbox": CustomCheckbox;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "component-01": LocalJSX.Component01 & JSXBase.HTMLAttributes<HTMLComponent01Element>;
-            "component-02": LocalJSX.Component02 & JSXBase.HTMLAttributes<HTMLComponent02Element>;
-            "component-03": LocalJSX.Component03 & JSXBase.HTMLAttributes<HTMLComponent03Element>;
-            "musango-component": LocalJSX.MusangoComponent & JSXBase.HTMLAttributes<HTMLMusangoComponentElement>;
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "custom-checkbox": LocalJSX.CustomCheckbox & JSXBase.HTMLAttributes<HTMLCustomCheckboxElement>;
         }
     }
 }

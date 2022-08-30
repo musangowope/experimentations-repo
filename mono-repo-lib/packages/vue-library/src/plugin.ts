@@ -1,7 +1,7 @@
 // packages/vue-library/src/plugin.ts
 
 import { Plugin } from 'vue';
-import { applyPolyfills, defineCustomElements } from 'stencil-library/loader';
+import { applyPolyfills, defineCustomElements } from '@musangowope/stencil-library/loader';
 
 export const ComponentLibrary: Plugin = {
   async install() {

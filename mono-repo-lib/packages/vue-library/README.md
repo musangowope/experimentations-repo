@@ -1,11 +1,11 @@
-# `vue-library`
+# `vue-library-updated`
 
 > TODO: description
 
 ## Usage
 
 ```
-const vueLibrary = require('vue-library');
+const vueLibraryUpdated = require('vue-library-updated');
 
 // TODO: DEMONSTRATE API
 ```
