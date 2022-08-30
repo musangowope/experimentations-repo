@@ -37,5 +37,10 @@
     "puppeteer": "^10.0.0"
   },
   "license": "MIT",
-  "gitHead": "effced1b962badfe352350f5282fdfe09a547cc9"
+  "gitHead": "e70ea81087f81861de29fbf32bc06e32ce68e106",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

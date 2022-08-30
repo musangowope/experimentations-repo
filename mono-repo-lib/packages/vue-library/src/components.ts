@@ -11,6 +11,9 @@ import type { JSX } from '@musangowope/stencil-library';
 export const Component01 = /*@__PURE__*/ defineContainer<JSX.Component01>('component-01', undefined);
 
 
+export const Component02 = /*@__PURE__*/ defineContainer<JSX.Component02>('component-02', undefined);
+
+
 export const MusangoComponent = /*@__PURE__*/ defineContainer<JSX.MusangoComponent>('musango-component', undefined);
 
 

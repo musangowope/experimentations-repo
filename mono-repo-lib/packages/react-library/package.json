@@ -2,7 +2,6 @@
   "name": "@musangowope/component-library-react",
   "sideEffects": false,
   "version": "4.0.0",
-  "private": false,
   "description": "React specific wrapper for component-library",
   "repository": {
     "type": "git",
@@ -48,5 +47,10 @@
       "dist"
     ]
   },
-  "gitHead": "effced1b962badfe352350f5282fdfe09a547cc9"
+  "gitHead": "e70ea81087f81861de29fbf32bc06e32ce68e106",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

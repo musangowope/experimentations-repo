@@ -8,6 +8,8 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface Component01 {
     }
+    interface Component02 {
+    }
     interface MusangoComponent {
     }
     interface MyComponent {
@@ -32,6 +34,12 @@ declare global {
         prototype: HTMLComponent01Element;
         new (): HTMLComponent01Element;
     };
+    interface HTMLComponent02Element extends Components.Component02, HTMLStencilElement {
+    }
+    var HTMLComponent02Element: {
+        prototype: HTMLComponent02Element;
+        new (): HTMLComponent02Element;
+    };
     interface HTMLMusangoComponentElement extends Components.MusangoComponent, HTMLStencilElement {
     }
     var HTMLMusangoComponentElement: {
@@ -46,12 +54,15 @@ declare global {
     };
     interface HTMLElementTagNameMap {
         "component-01": HTMLComponent01Element;
+        "component-02": HTMLComponent02Element;
         "musango-component": HTMLMusangoComponentElement;
         "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
     interface Component01 {
+    }
+    interface Component02 {
     }
     interface MusangoComponent {
     }
@@ -71,6 +82,7 @@ declare namespace LocalJSX {
     }
     interface IntrinsicElements {
         "component-01": Component01;
+        "component-02": Component02;
         "musango-component": MusangoComponent;
         "my-component": MyComponent;
     }
@@ -80,6 +92,7 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "component-01": LocalJSX.Component01 & JSXBase.HTMLAttributes<HTMLComponent01Element>;
+            "component-02": LocalJSX.Component02 & JSXBase.HTMLAttributes<HTMLComponent02Element>;
             "musango-component": LocalJSX.MusangoComponent & JSXBase.HTMLAttributes<HTMLMusangoComponentElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }

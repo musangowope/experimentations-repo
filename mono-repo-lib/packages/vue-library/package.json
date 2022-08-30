@@ -32,8 +32,10 @@
   "dependencies": {
     "@musangowope/stencil-library": "^4.0.0"
   },
+  "private": false,
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "effced1b962badfe352350f5282fdfe09a547cc9"
+  "gitHead": "e70ea81087f81861de29fbf32bc06e32ce68e106"
 }
