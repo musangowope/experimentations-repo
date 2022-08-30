@@ -1,6 +1,6 @@
 {
   "name": "@musangowope/external-library",
-  "version": "6.0.1",
+  "version": "6.0.2",
   "description": "Sample js library",
   "main": "index.js",
   "scripts": {
