@@ -1,6 +1,6 @@
 {
   "name": "@musangowope/vue-library",
-  "version": "6.0.2",
+  "version": "7.0.0",
   "description": "> TODO: description",
   "author": "Musango <musangow@gmail.com>",
   "homepage": "https://github.com/musangowope/experimentations-repo#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/musangowope/experimentations-repo/issues"
   },
   "devDependencies": {
-    "@musangowope/stencil-library": "*",
+    "@musangowope/stencil-library": "^7.0.0",
     "vue": "^3.2.38"
   },
   "publishConfig": {

@@ -1,6 +1,6 @@
 {
   "name": "@musangowope/external-library",
-  "version": "6.0.2",
+  "version": "7.0.0",
   "description": "Sample js library",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@musangowope/stencil-library": "^6.0.2"
+    "@musangowope/stencil-library": "^7.0.0"
   },
   "devDependencies": {
     "@musangowope/stencil-library": "^6.0.2",
