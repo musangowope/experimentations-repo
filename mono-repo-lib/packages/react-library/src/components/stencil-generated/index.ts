@@ -10,5 +10,6 @@ import { defineCustomElements } from '@musangowope/stencil-library/loader';
 defineCustomElements();
 export const Component01 = /*@__PURE__*/createReactComponent<JSX.Component01, HTMLComponent01Element>('component-01');
 export const Component02 = /*@__PURE__*/createReactComponent<JSX.Component02, HTMLComponent02Element>('component-02');
+export const Component03 = /*@__PURE__*/createReactComponent<JSX.Component03, HTMLComponent03Element>('component-03');
 export const MusangoComponent = /*@__PURE__*/createReactComponent<JSX.MusangoComponent, HTMLMusangoComponentElement>('musango-component');
 export const MyComponent = /*@__PURE__*/createReactComponent<JSX.MyComponent, HTMLMyComponentElement>('my-component');
